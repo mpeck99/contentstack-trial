@@ -9,6 +9,14 @@
 
 <script>
 import "vue3-json-viewer/dist/index.css";
+useHead({
+  script: [
+    {
+      src: "https://www.contentstack.com/sdks/live-preview.js",
+      defer: true,
+    },
+  ],
+});
 </script>
 <style>
 #cslp-tooltip {
