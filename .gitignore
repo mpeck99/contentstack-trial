@@ -1,0 +1,12 @@
+# General
+.DS_Store
+*.log
+node_modules
+dist
+.nuxt
+.output
+yarn-error.log
+pnpm-lock.yaml
+.pnpm-store/
+.env
+.env.*
